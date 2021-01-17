@@ -1,0 +1,25 @@
+## Getting and Cleaning Data - peer assessment project
+
+## About R script
+File with R code "gettingdata_project.R" perform 5 following steps (in accordance assigned task of course work)
+
+
+## The original data was transformed by
+
+1. Merging the training and the test sets to create one data set.
+2. Extracting only the measurements on the mean and standard deviation for each measurement. 
+3. Using descriptive activity names to name the activities in the data set
+4. Appropriately labeling the data set with descriptive activity names. 
+5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+## About variables:   
+* `train_set`, `test_set` contain the data from the downloaded files: X_test and X_train .
+   It contains the features for the experiment.
+*  `train_labels`, `test_lables` contain the data from the downloaded files: Y_test and Y_train.
+    It contains the Names for the experiment.
+* `subject_train` and `subject_test` contain the data from the downloaded files: Subject_test and Subject_train.
+    It contains the Subject_Id for the experiment.
+* `sets_data`, `labels_data` and `subjects_data` merge the previous datasets to further analysis.
+*  all_data merge the previous  three datasets to further analysis
+* `features` contains the correct names for the `Set_data` dataset, which are applied to the column names stored in
