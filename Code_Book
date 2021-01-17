@@ -1,3 +1,5 @@
+Getting and Cleaning Data - peer assessment project
+
 ## About R script
 File with R code "gettingdata_project.R" perform 5 following steps (in accordance assigned task of course work)
 
@@ -21,4 +23,5 @@ File with R code "gettingdata_project.R" perform 5 following steps (in accordanc
 * `sets_data`, `labels_data` and `subjects_data` merge the previous datasets to further analysis.
 *  all_data merge the previous  three datasets to further analysis
 * `features` contains the correct names for the `Set_data` dataset, which are applied to the column names stored in
+
 
